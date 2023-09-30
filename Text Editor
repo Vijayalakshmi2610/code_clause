@@ -1,0 +1,8 @@
+from tkinter import *
+from tkinter.filedialog import *
+r=Tk()
+r.title(" Text Editor")
+r.geometry('400x400')
+text=Text(r, width=400, height=400)
+text.pack()
+r.mainloop()
